@@ -1,0 +1,166 @@
+.page{
+    width: 100%;
+    height: 1350px;
+    background-color: dimgray;
+    padding: 5px;
+}
+.heading{
+    width: 350px;
+    height: 150px;
+    background-color: aliceblue;
+    border: 7px solid red;
+    border-radius: 20px;
+    margin: 5px 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: italic;
+    color: brown;
+    text-align: center;
+    box-shadow: 7px 7px rgb(118, 1, 147);
+    text-shadow: 1px 1px 1px brown;
+}
+.contener{
+    margin: 5px;
+    width: 98%;
+    height: 600px;
+    border: 7px solid green;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 7px solid red;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    box-shadow: 7px 7px rgb(118, 1, 147);
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 7px solid red;
+    border-radius: 15px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    text-align: center;
+    box-shadow: 7px 7px rgb(118, 1, 147);
+}
+#id{
+    border-radius: 20px;
+}
+#box3{
+    position: absolute;
+    left: 5px;
+    bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border: 7px solid red;
+    border-radius: 15px;
+    display: flex;
+    font-size: 20px;
+    background-color: aliceblue;
+    box-shadow: 7px 7px rgb(118, 1, 147);
+    padding-top: 15px;
+    text-shadow: 1px 1px 1px rgb(118, 1, 147);
+}
+#box4{
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    box-shadow: 7px 7px rgb(118, 1, 147);
+    text-shadow: 1px 1px 1px rgb(118, 1, 147);
+}
+#box2{
+    position: absolute;
+    right: 50px;
+    top: 3px;
+}
+#box5{
+    position: absolute;
+    left: 2px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(118, 1, 147);
+}
+.offer{
+    width: 400px;
+    height: 80px;
+    background-color: chartreuse;
+    position: fixed;
+    left: 330px;
+    bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    border: 7px solid red;
+    border-radius: 15px;
+    box-shadow: 7px 7px rgb(118, 1, 147);
+}
+.store{
+    width: 600px;
+    height: 500px;
+    border: 7px solid rgb(133, 51, 153);
+    background-color: green;
+    margin: 20px;
+    position: absolute;
+    left: 280px;
+}
+.center{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.item{
+    width: 288px;
+    height: 200px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.fruits{
+    font-size: 25px;
+    padding: 10px;
+}
+.item2{
+    width: 288px;
+    height: 200px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+    position: absolute; 
+    right: 5px;
+    top: 64px;
+
+}
+.item3{
+    width: 600px;
+    height: 200px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 5px; 
+}
+.vegetables{
+    font-size: 25px;
+    padding: 10px;
+}
+.other{
+    font-size: 25px;
+    padding: 10px;
+}
+.text{
+    font-size: 13px;
+}

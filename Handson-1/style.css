@@ -1,0 +1,34 @@
+.heading{
+    color: red;
+}
+.heading2{
+    color: chocolate;
+    font-style: italic;
+}
+.class{
+    color: purple;
+}
+.a{
+    line-height: 40px;
+}
+span{
+    text-decoration: underline;
+}
+#color{
+    font-size: 20px;
+    text-decoration: line-through;
+
+}
+#name{
+    font-size: 20px;
+    background-color: yellow;
+    text-decoration: none;
+}
+#space{
+    letter-spacing: 5px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+}

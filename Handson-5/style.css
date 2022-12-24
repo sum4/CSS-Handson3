@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    width: 98%;
+    height: 98vh;
+    background-image: url(./sky.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    border-left: 7px solid darkorange;
+    border-top: 7px solid white;
+    border-right: 7px solid green;
+    border-bottom: 7px solid white;
+}
+.road{
+    width: 500%;
+    height: 200px;
+    background-image: url(./road.jpg);
+    background-repeat: repeat-x;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    animation: road 5s linear infinite;
+}
+@keyframes road{
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+.city{
+    width: 500%;
+    height: 250px;
+    background-image: url(./city.png);
+    background-repeat: repeat-x;
+    display: block;
+    position: absolute;
+    bottom: 200px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    animation: road 50s linear infinite;
+}
+@keyframes city{
+    100%{
+        transform: translateX(-1400px);
+    }
+}
+.car{
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.car img{
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+@keyframes car{
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(1px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+.wheel{
+    position: absolute;
+    left: 50%;
+    bottom: 178px;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+.wheel img{
+    width: 72px;
+    animation: wheel 1s linear infinite;
+}    
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.back-wheel{
+    left: -165px;
+    position: absolute;
+    bottom: -70px;
+}
+.front-wheel{
+    left: 80px;
+    position: absolute;
+    bottom: -70px;
+}
+.sun{
+    width: 100px;
+}
+.surya{
+    right: 20px;
+    position: absolute;
+    animation: surya 50s linear infinite;
+}
+@keyframes surya{
+    100%{
+        transform: translateX(-400px);
+    }
+}
+.flag{
+    left: 51%;
+    bottom: 163px;
+    position: absolute;
+    z-index: 3;
+}
+
+   
